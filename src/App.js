@@ -1,9 +1,15 @@
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Home from "./components/Home";
+import Sidebar from "./components/Sidebar";
+import Player from "./components/Player";
 
 function App() {
   return (
-    <div>
-      <h1>Ciao</h1>
+    <div className="mt-3">
+      <Home />
+      <Sidebar />
+      <Player />
     </div>
   );
 }
